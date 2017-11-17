@@ -1,0 +1,33 @@
+button {
+  font-family: 'Oxygen' , sans-serif;
+  outline: none;
+}
+.btn {
+  width: 140px;
+  height: 40px;
+  font-size: .75rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  position: relative;
+  &-sky {
+    background-color: #02baab;
+    border: 1px solid #02baab;
+    color: #ffffff;
+    border-radius: 0;
+  }
+  &-transperent {
+    background-color: transparent;
+    border: 1px solid #02baab;
+    color: $sky;
+    border-radius: 0;
+
+  }
+  &-transperent-light {
+    background: transparent;
+    border: 1px solid $white;
+    color: $white;
+    border-radius: 0;
+    width: 170px;
+    }
+  }

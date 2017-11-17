@@ -1,0 +1,46 @@
+.mrg {
+  &-l {
+    margin-left: $margin-50;
+
+    &-md {
+      margin-left: $margin-50*1.5;
+    }
+
+    &-lg {
+      margin-left: $margin-50*2;
+    }
+  }
+  &-r {
+    margin-right: $margin-50;
+
+    &-md {
+      margin-right: $margin-50*1.5;
+    }
+
+    &-lg {
+      margin-right: $margin-50*2;
+    }
+  }
+  &-b {
+    margin-bottom: $margin-50;
+
+    &-md {
+      margin-bottom: $margin-50*1.5;
+    }
+
+    &-lg {
+      margin-bottom: $margin-50*2;
+    }
+  }
+  &-t {
+    margin-top: $margin-50;
+
+    &-md {
+      margin-top: $margin-50*1.5;
+    }
+
+    &-lg {
+      margin-top: $margin-50*2;
+    }
+  }
+}

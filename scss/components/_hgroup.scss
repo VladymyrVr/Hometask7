@@ -1,0 +1,62 @@
+hgroup {
+  font-family: 'Oxygen', sans-serif;
+}
+
+.welcome-h2 {
+    font-size: 3.75rem;
+    line-height: 4.5rem;
+    color: #02baab;
+}
+
+.welcome-h3 {
+    @extend .welcome-h2;
+    color: #ffffff;
+}
+
+.h2-general-b{
+  font-size: 2.25rem;
+  line-height: 1.25rem;
+  position: relative;
+  color: #3b4954;
+
+    &::after {
+      position: absolute;
+      content: '';
+      width: 50px;
+      height: 5px;
+      background-color: #eeeeee;
+      top: 50px;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+  }
+
+.h2-general-w {
+    font-size: 2.25rem;
+    line-height: 1.25rem;
+    position: relative;
+    color: #ffffff;
+
+    &::after {
+      position: absolute;
+      content: '';
+      width: 50px;
+      height: 5px;
+      background-color: #ffffff;
+      top: 50px;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+  }
+.list-header {
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  color: #000000;
+}
+.article-header {
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  color: $sky;
+}

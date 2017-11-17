@@ -1,0 +1,25 @@
+.header-top {
+  background-color: #000000;
+}
+.header-bot {
+  background-color: #7f7f7f;
+  padding: 0  0 1.25rem  0;
+    .main-nav {
+      @each $col in nav-1, nav-2, nav-3, nav-4, nav-5, nav-6, nav-7 {
+        $i: $i + 1;
+        & .#{$col} {
+          border-top: 10px solid nth($color-gamma, $i);
+        }
+      }
+      li {
+        display: inline-block;
+        margin-left: -4px;
+        width: 100px;
+        text-align: center;
+        padding-top: 1.25rem;
+    }
+  }
+}
+.welcome {
+  min-height: calc(100vh - 136px);
+}

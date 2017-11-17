@@ -1,0 +1,197 @@
+.icon {
+  font-family: 'FontAwesome', sans-serif;
+
+  &-like::after {
+    content: "\f004";
+    color: $white;
+    font-size: .875rem;
+    line-height: 1.5rem;
+  }
+
+  &-circle-like::after {
+    content: "\f004";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    color: $white;
+    font-size: 1.25rem;
+  }
+
+  &-circle-search-plus::after {
+    content: "\f00e";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    color: $white;
+    font-size: 1.25rem;
+  }
+
+  &-circle-share::after {
+    content: "\f079";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    color: $white;
+    font-size: 1.25rem;
+  }
+
+  &-star::before {
+    content: "\f005";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    color: $sky;
+    font-size: 3rem;
+  }
+
+  &-magic::before {
+    content: "\f0d0";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    color: $sky;
+    font-size: 3rem;
+  }
+
+  &-trophy::before {
+    content: "\f091";
+    position: absolute;
+    top: -10px;
+    left: -60px;
+    color: $sky;
+    font-size: 3rem;
+  }
+
+  &-cloud::before {
+    content: "\f0ee";
+    position: absolute;
+    top: -10px;
+    left: -60px;
+    color: $sky;
+    font-size: 3rem;
+  }
+
+  &-comments-sm::before {
+    content: "\f086";
+    color: $sky;
+    font-size: .875rem;
+    padding-right: 10px;
+  }
+
+  &-settings-lg:before {
+    content: "\f085";
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5rem;
+  }
+
+  &-call-lg::before {
+    content: "\f095";
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5rem;
+  }
+
+  &-call-sm::before {
+    content: "\f095";
+    color: $sky;
+    font-size: 1rem;
+    padding-right: 10px;
+  }
+
+  &-flag-sm::before {
+    content: "\f024";
+    color: $sky;
+    font-size: 1rem;
+    padding-right: 10px;
+  }
+
+  &-letter-sm::before {
+    content: "\f0e0";
+    color: $sky;
+    font-size: 1rem;
+    padding-right: 10px;
+  }
+
+  &-rocket-lg::before {
+    content: "\f135";
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5rem;
+  }
+
+  &-twitter-sm::before {
+    position: absolute;
+    content: "\f099";
+    color: $sky;
+    font-size: 1rem;
+    left: -20px;
+  }
+
+  &-twtter-md::before {
+    position: absolute;
+    content: "\f099";
+    color: $white;
+    font-size: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &-facebook-md::before {
+    position: absolute;
+    content: "\f09a";
+    color: $white;
+    font-size: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &-youtube-md::before {
+    position: absolute;
+    content: "\f167";
+    color: $white;
+    font-size: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &-instagram-md::before {
+    position: absolute;
+    content: "\f16d";
+    color: $white;
+    font-size: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &-pinterest-md::before {
+    position: absolute;
+    content: "\f231";
+    color: $white;
+    font-size: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+}
+

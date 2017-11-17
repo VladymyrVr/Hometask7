@@ -1,0 +1,42 @@
+.text {
+  font: 300 1.125rem/1.875rem 'Oxygen', sans-serif;
+
+  &-xlg {
+    font: 3rem/2.25rem 'Oxygen', sans-serif;
+  }
+
+  &-lg {
+    font: 1.5rem/2.25rem "Oxygen";
+  }
+
+  &-md {
+    font: .875rem/1.5rem 'Oxygen', sans-serif;
+  }
+
+  &-sm {
+    font: .75rem/1.25rem 'Oxygen', sans-serif;
+  }
+
+  &-xs {
+    font: .875/1.125rem 'Oxygen', sans-serif;
+  }
+
+  &-dark {
+    color: $dark;
+  }
+
+  &-light {
+    color: $white;
+  }
+
+  &-sky {
+    color: $sky;
+  }
+
+  &-silver {
+    color: #cfcfcf;
+  }
+  &-dark-silver {
+    color: #9b9b9b;
+  }
+}

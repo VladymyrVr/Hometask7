@@ -1,0 +1,35 @@
+.first-slide {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%) , url("../images/first-slide.jpg") no-repeat center center;
+  background-size: 100% 100%;
+  height: calc(100vh - 136px);
+}
+.second-slide {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%) , url("../images/second-slide.jpg") no-repeat center center;
+  background-size: cover;
+  height: calc(100vh - 136px);
+}
+.third-slide {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%) , url("../images/third-slide.jpg") no-repeat center center;
+  background-size: cover;
+  height: calc(100vh - 136px);
+}
+.fourth-slide {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%) , url("../images/fourth-slide.jpg") no-repeat center center;
+  background-size: cover;
+  height: calc(100vh - 136px);
+}
+.fifth-slide {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%) , url("../images/fifth-slide.jpg") no-repeat center center;
+  background-size: cover;
+  height: calc(100vh - 136px);
+}
+.carousel-indicators {
+  bottom: 50px;
+
+  li {
+    background-color: $carousel-indicator-active-bg;
+  }
+  .active {
+    background-color: $sky;
+  }
+}

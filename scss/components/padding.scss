@@ -1,0 +1,8 @@
+
+.section-padding {
+  padding: $padding-50 0;
+
+  &-lg {
+    padding: ($padding-50*2) 0;
+  }
+}

@@ -1,0 +1,27 @@
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 960px
+);
+
+$yellow: #ffae00;
+$orange: #fc7100;
+$pink: #e51c5e;
+$cherry: #ae0f8d;
+$purple: #6d0fae;
+$dark-blue: #33227a;
+$blue: #0c8fcc;
+
+$color-gamma: $yellow, $orange, $pink, $cherry, $purple, $dark-blue, $blue;
+$color-gamma-footer: $purple, $blue, $pink, $yellow;
+$i: 0;
+
+$white: #fff;
+$sky: #02baab;
+$dark: #3b4954;
+
+$carousel-indicator-active-bg: $white;
+
+$padding-50: 3.125rem;
+$margin-50: 3.125rem;

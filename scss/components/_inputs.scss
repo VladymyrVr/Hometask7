@@ -1,0 +1,27 @@
+input {
+  font-family: 'Lato', sans-serif;
+  outline: none;
+}
+.search {
+  background-color: transparent;
+  font: 400 .75rem 'Lato';
+  border: 1px solid rgba(133, 147, 159, 0.5);
+  color: #85939f;
+  width: 205px;
+  & + label {
+    position: relative;
+  }
+  &-after {
+    &::after {
+      top: 0;
+      bottom: 0;
+      right: 1.2rem;
+      margin: auto;
+      position: absolute;
+      content: "\f002";
+      font-family: 'FontAwesome', serif;
+      color: #85939f;
+    }
+  }
+}
+

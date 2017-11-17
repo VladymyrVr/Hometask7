@@ -1,0 +1,43 @@
+a {
+  font-family: 'Oxygen', sans-serif;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+.control {
+  font-size: .75rem;
+  line-height: 2rem;
+  color: #85939f;
+
+  &:hover {
+    color: #85939f;
+    opacity: .8;
+  }
+
+  &-login {
+    &::before {
+      content: '\f2be';
+      font-family: 'FontAwesome', serif;
+      padding-right: .25rem;
+    }
+  }
+  &-register {
+    &::before {
+      content: '\f040';
+      font-family: 'FontAwesome', serif;
+      padding-right: .25rem;
+    }
+  }
+}
+.navigate {
+  font-size: .75rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  &:hover {
+    color: #ffffff;
+    opacity: .6;
+  }
+}
