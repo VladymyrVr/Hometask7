@@ -5,11 +5,11 @@
 @import "base/fonts";
 @import "base/general";
 @import "base/mixins";
-@import "base/header";
 @import "base/media";
 
 @import "components/inputs";
 @import "components/links";
+@import "components/carousel";
 @import "components/slides";
 @import "components/buttons";
 @import "components/hgroup";
@@ -20,4 +20,14 @@
 @import "components/wrappers";
 @import "components/icons";
 @import "components/googlemaps";
-@import "base/footer";
+
+
+@import "layout/header";
+@import "layout/footer";
+@import "layout/sections/welcome";
+@import "layout/sections/blog-view";
+@import "layout/sections/article";
+@import "layout/sections/blog";
+@import "layout/sections/add-comments";
+@import "layout/sections/portfolio";
+@import "layout/sections/projects";

@@ -13,15 +13,34 @@ $purple: #6d0fae;
 $dark-blue: #33227a;
 $blue: #0c8fcc;
 
+$facebook-bg: #34578e;
+$twitter-bg: #2ca6cf;
+$message-bg: #72898c;
+$print-bg: #72898c;
+$google-plus-bg: #f96852;
+$pinterest-bg: #d9211e;
+
+$icon-bg: $facebook-bg, $twitter-bg, $message-bg, $print-bg, $google-plus-bg;
+$social-net-bg: $facebook-bg, $twitter-bg, $message-bg,$pinterest-bg, $google-plus-bg;
+
 $color-gamma: $yellow, $orange, $pink, $cherry, $purple, $dark-blue, $blue;
 $color-gamma-footer: $purple, $blue, $pink, $yellow;
 $i: 0;
 
 $white: #fff;
+$black: #000;
 $sky: #02baab;
+$light-sky: #eaf0f3;
+$dust: #c69c6d;
 $dark: #3b4954;
+$graphite-light: #7f7f7f;
+$graphite-dark: #85939f;
+$graphite-lighten: #cbcbcb;
+$graphite-darken: #474e52;
 
 $carousel-indicator-active-bg: $white;
 
 $padding-50: 3.125rem;
 $margin-50: 3.125rem;
+
+$gradient: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%);

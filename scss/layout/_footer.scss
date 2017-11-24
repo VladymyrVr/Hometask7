@@ -1,0 +1,92 @@
+.footer-top {
+  padding-bottom: 80px;
+  @each $col in $color-gamma-footer {
+    $i: $i + 1;
+    >ul:nth-child(#{$i}) {
+      border-top: 15px solid nth($color-gamma-footer, $i);
+    }
+  }
+
+  >ul {
+    & > li {
+      padding-left: 10px;
+    }
+  }
+
+  .tweets-list {
+    li {
+      margin-bottom: 2rem;
+      margin-left: 1.5rem;
+      position: relative;
+    }
+  }
+
+  .social-networks-list {
+    li {
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+footer {
+  background-color: #242e35;
+}
+
+.facebook {
+  background: #3e5894;
+}
+
+.twit {
+  background: #009ece;
+}
+
+.youtube {
+  background: #c43131;
+}
+
+.instagram {
+  background: #825d4b;
+}
+
+.pinterest {
+  background: #a30037;
+}
+
+.popular-lists {
+  li {
+    margin-bottom: 1.5rem;
+    &:last-child {
+      margin: 0;
+    }
+
+    a:hover {
+      color: darken($sky, 10%);
+    }
+  }
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+
+  button {
+    width: 160px;
+    position: relative;
+
+    &:after {
+      content: "\f077";
+      font-size: 1rem;
+      font-family: "FontAwesome" , serif;
+      color: $sky;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 15px;
+
+    }
+  }
+}

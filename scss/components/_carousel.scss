@@ -1,0 +1,18 @@
+.welcome {
+  .carousel-inner {
+    height: calc(100vh - 117px);
+    img {
+      width: 100%;
+      height: calc(100vh - 117px);
+    }
+  }
+}
+.jumbotron {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background: transparent;
+  padding: 0;
+}

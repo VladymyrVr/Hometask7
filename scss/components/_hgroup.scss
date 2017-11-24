@@ -5,19 +5,19 @@ hgroup {
 .welcome-h2 {
     font-size: 3.75rem;
     line-height: 4.5rem;
-    color: #02baab;
+    color: $sky;
 }
 
 .welcome-h3 {
     @extend .welcome-h2;
-    color: #ffffff;
+    color: $white;
 }
 
 .h2-general-b{
   font-size: 2.25rem;
   line-height: 1.25rem;
   position: relative;
-  color: #3b4954;
+  color: $dark;
 
     &::after {
       position: absolute;
@@ -36,14 +36,14 @@ hgroup {
     font-size: 2.25rem;
     line-height: 1.25rem;
     position: relative;
-    color: #ffffff;
+    color: $white;
 
     &::after {
       position: absolute;
       content: '';
       width: 50px;
       height: 5px;
-      background-color: #ffffff;
+      background-color: $white;
       top: 50px;
       left: 0;
       right: 0;
@@ -53,7 +53,7 @@ hgroup {
 .list-header {
   font-size: 1.5rem;
   line-height: 1.875rem;
-  color: #000000;
+  color: $black;
 }
 .article-header {
   font-size: 1.5rem;

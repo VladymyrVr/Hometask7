@@ -8,6 +8,21 @@
     line-height: 1.5rem;
   }
 
+  &-like-sm::before {
+    content: "\f004";
+    font-size: 1rem;
+    color: $graphite-lighten;
+    padding-right: 10px;
+  }
+
+
+  &-checked-sm:before {
+    content: "\f14a";
+    font-size: 1rem;
+    color: $orange;
+    padding-right: 10px;
+  }
+
   &-circle-like::after {
     content: "\f004";
     position: absolute;
@@ -77,7 +92,7 @@
     font-size: 3rem;
   }
 
-  &-comments-sm::before {
+  &-comments-xs::before {
     content: "\f086";
     color: $sky;
     font-size: .875rem;
@@ -125,6 +140,16 @@
     padding-right: 10px;
   }
 
+  &-letter-xs::before {
+    position: absolute;
+    content: "\f0e0";
+    color: $white;
+    font-size: .725rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
   &-rocket-lg::before {
     content: "\f135";
     color: white;
@@ -153,11 +178,148 @@
     transform: translate(-50%, -50%);
   }
 
+  &-twtter-sm::before {
+    position: absolute;
+    content: "\f099";
+    color: $white;
+    font-size: 1.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &-twitter-xs::before {
+    position: absolute;
+    content: "\f099";
+    color: $white;
+    font-size: .725rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &-letter-md::before {
+    position: absolute;
+    content: "\f003";
+    color: $white;
+    font-size: 1.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &-print-sm::before {
+    position: absolute;
+    content: "\f02f";
+    color: $white;
+    font-size: 1.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &-plus-sm::before {
+    position: absolute;
+    content: "\f067";
+    color: $white;
+    font-size: 1.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &-plus-xs::before{
+    position: absolute;
+    content: "\f067";
+    color: $white;
+    font-size: .725rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &-triangle-left::before {
+    position: absolute;
+    content: "<";
+    color: $orange;
+    font-size: 1.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &-triangle-right::before {
+    position: absolute;
+    content: ">";
+    color: $orange;
+    font-size: 1.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &-keyboard-sm::before {
+    content: "\f11c";
+    position: absolute;
+    color: $graphite-lighten;
+    top: -25px;
+    left: 0;
+  }
+
+  &-bookmark-sm::before {
+    content: "\f02e";
+    position: absolute;
+    color: $graphite-lighten;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+
+  &-quote-sm::before {
+    content: "\f10d";
+    position: absolute;
+    color: $graphite-lighten;
+    top: 1rem;
+    left: 0;
+  }
+
+  &-traingle-down::after {
+    content: "\f0d7";
+    position: absolute;
+    color: $sky;
+    font-size: 1.5rem;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+
+  }
+
+
   &-facebook-md::before {
     position: absolute;
     content: "\f09a";
     color: $white;
     font-size: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &-facebook-sm::before {
+    position: absolute;
+    content: "\f09a";
+    color: $white;
+    font-size: 1.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &-facebook-xs::before {
+    position: absolute;
+    content: "\f09a";
+    color: $white;
+    font-size: .725rem;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -193,5 +355,42 @@
     transform: translate(-50%, -50%);
   }
 
+  &-pinterest-xs::before {
+    position: absolute;
+    content: "\f231";
+    color: $white;
+    font-size: .725rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &-user-sm::before {
+    content: "\f2bd";
+    color: inherit;
+    font-size: 1rem;
+    padding-right: .5rem;
+  }
+
+  &-clock-sm::before {
+    content: "\f017";
+    color: inherit;
+    font-size: 1rem;
+    padding-right: .5rem;
+  }
+
+  &-comments-sm::before {
+    content: "\f0e6";
+    color: inherit;
+    font-size: 1rem;
+    padding-right: .5rem;
+  }
+
+  &-tags-sm::before {
+    content: "\f02c";
+    color: $sky;
+    font-size: 1rem;
+    padding-right: .5rem;
+  }
 }
 

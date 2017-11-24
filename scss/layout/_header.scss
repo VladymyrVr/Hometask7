@@ -1,0 +1,40 @@
+.header-top {
+  background-color: $black;
+}
+.navbar-header {
+  background-color: $graphite-light;
+
+    .navbar-header-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar-header-list {
+
+      li {
+        display: inline-block;
+        float: left;
+        width: 100px;
+        text-align: center;
+        line-height: 58px;
+
+        a {
+          font-size: .75rem;
+          line-height: 2rem;
+          text-transform: uppercase;
+          color: $white;
+          &:hover {
+            color: darken($white, 20%);
+          }
+        }
+      }
+
+      @each $col in $color-gamma {
+        $i: $i + 1;
+        li:nth-child(#{$i}) {
+          border-top: 10px solid nth($color-gamma, $i);
+        }
+      }
+    }
+}

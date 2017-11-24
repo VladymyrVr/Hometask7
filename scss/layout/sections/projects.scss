@@ -1,0 +1,48 @@
+.project-section {
+  padding: 50px 0 100px 0;
+
+  .project-content {
+    max-width: 690px;
+    }
+  .project-desription-wrapper {
+    width: 210px;
+
+    .control-triangle {
+      li {
+        display: inline-block;
+        position: relative;
+        width: 40px;
+        height: 40px;
+        border: 2px solid $graphite-lighten;
+
+        &:hover {
+          border: 2px solid $orange;
+        }
+      }
+    }
+
+    .description-list {
+      margin-bottom: 2rem;
+      li {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  .social-networks-list {
+    @each $bg-col in $social-net-bg {
+      $i: $i + 1;
+      li:nth-child(#{$i}) {
+        background-color: nth($social-net-bg, $i);
+      }
+    }
+    text-align: center;
+    li {
+      display: inline-block;
+      position: relative;
+      width: 16px;
+      height: 16px;
+      margin-right: .25rem;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.add-comments-section {
+  padding: 50px 0 100px 0;
+  background: $light-sky;
+
+  .comments-container {
+    max-width: 690px;
+
+    form {
+      overflow: hidden;
+    }
+
+    .comments-list {
+      li {
+        padding: 2rem;
+        background: $white;
+        margin-bottom: 2rem;
+
+        &:hover .reply-hidden {
+          display: block;
+        }
+
+        .reply-hidden {
+          display: none;
+        }
+
+        &:nth-child(2n) {
+          margin-left: 30px;
+        }
+      }
+    }
+  }
+
+  .form-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    li {
+      display: inline-block;
+
+      input {
+        width: 220px;
+        outline: none;
+        padding: .25rem;
+        box-shadow: 0 -1px 0 #9eb9c9;
+      }
+
+      textarea {
+        width: 690px;
+        box-shadow: 0 -1px 0 #9eb9c9;
+        min-height: 110px;
+        padding: .5rem;
+        resize: none;
+        outline: none;
+      }
+    }
+  }
+}

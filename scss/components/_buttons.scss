@@ -30,4 +30,20 @@ button {
     border-radius: 0;
     width: 170px;
     }
+
+  &-white-light {
+    text-transform: uppercase;
+    background: $white;
+    border: 1px solid $sky;
+    color: $sky;
+    border-radius: 0;
+  }
+  &-btn-sm-buy {
+    width: 100px;
+    height: 40px;
+    color: $orange;
+    text-transform: uppercase;
+    background: transparent;
+    border: 3px solid $orange;
+  }
   }

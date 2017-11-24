@@ -1,0 +1,99 @@
+.blog-section {
+  padding: 50px 0;
+
+  main {
+    max-width: 690px;
+  }
+
+
+  blockquote::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3px;
+    height: 120px;
+    background: $graphite-lighten;
+  }
+
+  .article-img-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    li {
+      width: 210px;
+      height: 160px;
+      overflow: hidden;
+    }
+  }
+
+  .contacts-icon {
+    margin-bottom: 50px;
+    @each $bg-col in $icon-bg {
+      $i: $i + 1;
+      li:nth-child(#{$i}) {
+        background-color: nth($icon-bg, $i);
+      }
+    }
+    li {
+      display: inline-block;
+      position: relative;
+      width: 32px;
+      height: 32px;
+      margin-right: 8px;
+    }  }
+}
+
+
+.related-posts-list {
+  display: flex;
+  margin-bottom: 50px;
+  li {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+  }
+}
+
+.sidebar {
+  max-width: 210px;
+  width: 100%;
+
+  .categories-list {
+    margin-bottom: 50px;
+    li {
+      position: relative;
+      padding: 1rem 0 1rem 1.5rem;
+      border-bottom: 1px solid $graphite-lighten;
+    }
+  }
+
+  .recent-comments-list {
+    margin-bottom: 50px;
+    li {
+      position: relative;
+      padding: 1rem 0 .5rem 1.5rem;
+      border-bottom: 1px solid $graphite-lighten;
+    }
+  }
+
+  .tag-cloud-list {
+    margin-bottom: 50px;
+    li {
+      display: inline-block;
+      padding: .5rem;
+      margin: 5px 4px 0 0;
+      border: 1px solid $graphite-lighten;
+
+      &:hover {
+        background: $sky;
+
+        &>a {
+          color: $white;
+        }
+        }
+      }
+    }
+  }
